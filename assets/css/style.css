@@ -101,16 +101,16 @@ nav>ul>li>a:hover{ /**estilo se aplica a a**/
 }
 
 nav ul li a .first{
-    background: rgb(102, 101, 101);
+    background: rgb(78 139 210);
 }
 nav ul li a .second{
-    background: rgb(102, 101, 101);
+    background: rgb(78 139 210);
 }
 nav ul li a .third{
-    background: rgb(102, 101, 101);
+    background: rgb(78 139 210);
 }
 nav ul li a .fourth{
-    background: rgb(102, 101, 101);
+    background: rgb(78 139 210);
 }
 /******************--Nav-Bar en moviles-********************/
 @media screen and (max-width: 800px){
@@ -213,7 +213,7 @@ nav ul li a .fourth{
 }
 
 #publications{
-    background-color: #b6f3f5;
+    background-color: #5fc5d1;
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
@@ -236,7 +236,7 @@ nav ul li a .fourth{
     background-color: #666666;
 }
 #footer{
-    color: rgb(202, 196, 196);
+    color: rgb(232 231 231);
     padding: 60px;
     background-color: #3fbbd3;
 }
@@ -343,7 +343,7 @@ nav ul li a .fourth{
     margin-top: 10px;
 }
 .bg-success{
-    background-color: rgb(159, 45, 45)!important;
+    background-color: rgb(78 139 210)!important;
     border-radius: 7px;
 }
 /*-Animation skills-*/
@@ -405,7 +405,7 @@ nav ul li a .fourth{
   left: 25px;
   height: 100%;
   width: 4px;
-  background: rgb(159, 45, 45);
+  background: rgb(78 139 210);
 }
 
 .read-more{
@@ -486,7 +486,7 @@ nav ul li a .fourth{
 }
 /**inside color**/
 .circle {
-  background:rgb(159, 45, 45);
+  background:rgb(78 139 210);
 }
 
 /**Wscreen Circle that is on top of the line**/
@@ -688,7 +688,7 @@ nav ul li a .fourth{
 /*****************************************--Contact-*************************************/
 
 .contact-container{
-    background-color:#666666 ;
+    background-color:#42c0cc ;
     color: #d0d0d0;
     -webkit-box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
@@ -700,7 +700,7 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 }
 
 .btn-primary {
-  background-color: rgb(138, 26, 26);
+  background-color: rgb(42 131 143);
   font-size: 14px;
   border: none;
   color: white;
@@ -774,7 +774,7 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
  
     .progress {
         height: 21px;
-        margin-top: 2px;
+        margin-top: 10px;
     }
 
     .form-group {
@@ -796,6 +796,10 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
         line-height: 25px;
         margin-top: 10vh;
         margin-bottom: 7vh;
+    }
+
+    .card-timeline-content h2 {
+        font-size: 29px;
     }
 }
 
@@ -829,4 +833,8 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
     background: -webkit-linear-gradient(left,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    border-bottom: 1px solid #171616;
 }
