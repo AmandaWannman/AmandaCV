@@ -12,8 +12,8 @@ function sendMail (contactForm){
     emailjs.send(service_id, template_id, template_params)
         .then(
         function (response) {
-            // alert("Contact sent successfully");
-            console.log("SUCCESS",response);
+            alert("Contact sent successfully");
+            // console.log("SUCCESS",response);
         },
         function (error) {
             // alert("Contact not sent", Error);
