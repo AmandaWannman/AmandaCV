@@ -9,7 +9,9 @@
 .menu-bar{
     display: none;
 }
-
+p{
+    font-weight: 600!important;
+}
 nav{
     height: auto;
     /*width: 100vw;*/
@@ -196,11 +198,11 @@ nav ul li a .fourth{
 #skills{
     background-attachment: fixed;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     overflow: hidden;
     height: auto;
     width: 100%;
-    background-image: url(../images/amanda/2.jpg);
+    background-image: url(../images/amanda/IMG_5954.png);
 }
 
 #about{
@@ -221,6 +223,7 @@ nav ul li a .fourth{
     height: auto;
     overflow: hidden;
     width: 100%;
+    background-image: url(../images/amanda/logo/turtle-2633189_1280.png);
 }
 
 #contact{
@@ -231,7 +234,7 @@ nav ul li a .fourth{
     overflow: hidden;
     width: 100%;
     content: normal;
-    background-image: url(../images/amanda/clownfish.jpg);
+    background-image: url(../images/amanda/skills.jpg);
 }
 #footer-contact{
     background-color: #666666;
@@ -272,8 +275,18 @@ nav ul li a .fourth{
     height: auto;
     overflow: hidden;
    /* background-color: rgba(68, 58, 99, 0.29);*/
-    background-color: #baf3f9e8;
+    background-color: #baf3f9b3;
     z-index: 2; 
+}
+
+.transparent-background-publications{
+    padding-bottom: 135px;
+    width:100%;
+    height: auto;
+    overflow: hidden;
+    /* background-color: rgba(68, 58, 99, 0.29);*/
+    background-color: #42c0cceb;
+    z-index: 2;
 }
 
 .transparent-background-contact{
@@ -308,7 +321,7 @@ nav ul li a .fourth{
     font-size: 29px;
 }
 .mt-5 {
-    margin-top: 12rem!important;
+    margin-top: 22rem!important;
 }
 
 /*****************************************--Cabeceras-*************************************/
@@ -689,7 +702,7 @@ nav ul li a .fourth{
 /*****************************************--Contact-*************************************/
 
 .contact-container{
-    background-color:#42c0cc ;
+    background-color:#42c0ccd9 ;
     color: #d0d0d0;
     -webkit-box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
@@ -747,6 +760,13 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
     .information{
         font-size:  15px;  
     }
+
+    #skills{
+        background-attachment: fixed;
+        background-position: bottom;
+        height: auto;
+        width: 100%;
+    }
 }
 
 /*md  TABLETS*/
@@ -793,7 +813,7 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
     }
 
     .centro{
-        font-size: 0.9rem;
+        font-size: 1rem;
         line-height: 25px;
         margin-top: 10vh;
         margin-bottom: 7vh;
@@ -817,7 +837,7 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 }
 
 .blur {
-    filter: blur(1px);
+    filter: blur(2px);
 }
 .brightness {filter: brightness(120%);}
 .contrast {filter: contrast(180%);}
@@ -828,7 +848,7 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 .saturate {filter: saturate(7);}
 
 .white{
-    background-color: rgb(6 212 245 / 30%)!important;
+    background-color: rgb(6 212 245 / 10%)!important;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+30,ffffff+83&0.81+26,0+76,0+90,0+90 */
     background: -moz-linear-gradient(left,  rgba(255,255,255,0.81) 26%, rgba(255,255,255,0.75) 30%, rgba(255,255,255,0) 76%, rgba(255,255,255,0) 83%, rgba(255,255,255,0) 90%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* Chrome10-25,Safari5.1-6 */
