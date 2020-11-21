@@ -7,7 +7,7 @@ function sendMail (contactForm){
     }
 
     var service_id = "gmail";
-    var template_id = "arloys";
+    var template_id = "amanda";
 
     emailjs.send(service_id, template_id, template_params)
         .then(
@@ -19,10 +19,10 @@ function sendMail (contactForm){
             // alert("Contact not sent", Error);
             console.log("FAILED", error);
         });
-    limpiarFormulario();
+    cleanForm();
      return false;
 }
 
-function limpiarFormulario() {
+function cleanForm() {
     document.getElementById("myForm").reset();
 }
