@@ -11,12 +11,13 @@
 
 nav{
     height: auto;
-    width: 100vw;
+    /*width: 100vw;*/
     margin: 0 auto;
     overflow: hidden;
     text-align: left;
     position: fixed;
-    z-index: 3;
+    z-index: 99;
+    background: #42c0cc;
 }
 
 nav ul{ /*Todos los ul que esten dentro del nav*/
@@ -28,14 +29,22 @@ nav>ul{/*Todos los ul hijos directos del nav*/
     display: table;
     overflow: hidden;/*todo lo que sobresalga desaparezca*/
     width: 100%;
-    background: rgba(255, 255, 255, 0.25);
+    font-size: 40px;
+    background: rgb(66 192 204);
     position: relative;
     margin-bottom: 0%;
-    float: left;
+    float: right!important;
     padding: 0px;
--webkit-box-shadow: 1px 2px 7px 0px rgba(50, 50, 50, 1);
--moz-box-shadow:    1px 2px 7px 0px rgba(50, 50, 50, 1);
-box-shadow:         1px 2px 7px 0px rgba(50, 50, 50, 1);
+/*-webkit-box-shadow: 1px 2px 7px 0px rgba(50, 50, 50, 1);*/
+/*-moz-box-shadow:    1px 2px 7px 0px rgba(50, 50, 50, 1);*/
+/*box-shadow:         1px 2px 7px 0px rgba(50, 50, 50, 1);*/
+}
+
+nav ul li {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    float: none!important;
+    padding: 0;
 }
 
 nav>ul>li>a span{
@@ -81,7 +90,7 @@ nav>ul li a {
 nav>ul>li>a span .fa{
     display: block;
     line-height: 60px;
-    color: rgb(159, 45, 45);
+    color: rgb(96 192 203);
 }
 
 nav>ul>li>a:hover>span{/**estilo se aplica a span**/
@@ -119,8 +128,8 @@ nav ul li a .fourth{
    
    /*-nav-*/
     nav ul { 
-        top:62px;
-        width: 50%;
+        top:59px;
+        width: 58%;
         height: 100%;
         margin: 0;
         position: fixed;
@@ -147,7 +156,7 @@ nav ul li a .fourth{
     .menu-bar .btn-menu{
         display: block;
         padding: 11px;
-        background: rgba(255, 255, 255, 0.842);
+        background: rgb(66 192 204);
         color: rgb(44, 44, 44);
         text-decoration: none;
         /* font-weight: bold; */
@@ -166,7 +175,9 @@ nav ul li a .fourth{
     }
 }
 
-
+#iam{
+    z-index: 9999999;
+}
 /*****************************************--Images-*************************************/
 
 #mypicture{
@@ -177,7 +188,8 @@ nav ul li a .fourth{
     height: 100vh;
     width: 100%;
     margin-bottom: 0;
-    background-image: url(../images/slate.jpg);
+    background-image: url(../images/amanda/snorkling.jpg);
+
 }
 
 #skills{
@@ -187,21 +199,21 @@ nav ul li a .fourth{
     overflow: hidden;
     height: auto;
     width: 100%;
-    background-image: url(../images/white-coumputer-keyboard-34490.jpg);
+    background-image: url(../images/amanda/2.jpg);
 }
 
 #about{
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
-    background-color: #80808047;
+    background-color: #3eb2c1bf;
     width: 100%;
     height: auto;
     overflow: hidden;
 }
 
 #publications{
-    background-color: #ececec;
+    background-color: #b6f3f5;
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
@@ -218,7 +230,7 @@ nav ul li a .fourth{
     overflow: hidden;
     width: 100%;
     content: normal;
-    background-image: url(../images/white-coumputer-keyboard-34490.jpg);
+    background-image: url(../images/amanda/clownfish.jpg);
 }
 #footer-contact{
     background-color: #666666;
@@ -226,20 +238,21 @@ nav ul li a .fourth{
 #footer{
     color: rgb(202, 196, 196);
     padding: 60px;
-    background-color: #363636;
+    background-color: #3fbbd3;
 }
 /*****************************************--Transparent-*************************************/
 .transparent-background-home{
     width:100%;
     height: 100vh;
     background-color: rgba(246, 246, 246, 0.43);
-    z-index: 2; 
+    z-index: 2;
     overflow: hidden;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+30,ffffff+83&0.81+26,0+76,0+90,0+90 */
     background: -moz-linear-gradient(left,  rgba(255,255,255,0.81) 26%, rgba(255,255,255,0.75) 30%, rgba(255,255,255,0) 76%, rgba(255,255,255,0) 83%, rgba(255,255,255,0) 90%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+
 
 }
 .centro{
@@ -258,7 +271,7 @@ nav ul li a .fourth{
     height: auto;
     overflow: hidden;
    /* background-color: rgba(68, 58, 99, 0.29);*/
-    background-color: #fffffff1;
+    background-color: #baf3f9e8;
     z-index: 2; 
 }
 
@@ -268,7 +281,7 @@ nav ul li a .fourth{
     width:100%;
     height: 50%;
     overflow: hidden;
-    background-color: rgba(220, 220, 220, 0.79);
+    background-color: rgb(182 243 245 / 58%);
     z-index: 2; 
 }
 
@@ -280,15 +293,16 @@ nav ul li a .fourth{
     color: rgb(44, 44, 44);
     font-family: "Rboto", sans-serif;
     margin-top: 10px;
+    z-index: 4;
 }
 #page-header>h1{
-    font-size:60px;
+    font-size:82px;
 }
 #page-header>h1>small{
     color: rgb(159, 45, 45);
 }
 #page-header>p{
-    color: rgb(159, 45, 45);
+    color: rgb(78 139 210);
     font-weight: bold;
     font-size: 29px;
 }
@@ -748,7 +762,9 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 }
 /*xm  MOBIL*/
 @media(max-width:568px){
-    
+    #page-header>h1 {
+        font-size: 38px;
+    }
 
     .transparent-background-skills {
         padding-top: 50px;
@@ -787,4 +803,30 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 .row{
     margin-right: 0px!important;
     margin-left: -3px!important;
+}
+
+
+
+.parallax-container {
+    height: 100vh;
+}
+
+.blur {
+    filter: blur(1px);
+}
+.brightness {filter: brightness(120%);}
+.contrast {filter: contrast(180%);}
+.grayscale {filter: grayscale(100%);}
+.huerotate {filter: hue-rotate(180deg);}
+.invert {filter: invert(100%);}
+.opacity {filter: opacity(50%);}
+.saturate {filter: saturate(7);}
+
+.white{
+    background-color: rgb(6 212 245 / 30%)!important;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+30,ffffff+83&0.81+26,0+76,0+90,0+90 */
+    background: -moz-linear-gradient(left,  rgba(255,255,255,0.81) 26%, rgba(255,255,255,0.75) 30%, rgba(255,255,255,0) 76%, rgba(255,255,255,0) 83%, rgba(255,255,255,0) 90%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 }
