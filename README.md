@@ -5,7 +5,7 @@ This is where I sell myself. I have created a site with a portfolio where potent
 
 ## Demo
 
-![Demo](assets/images/Captura de pantalla 2020-11-21 a las 13.15.35.png)
+![Demo](assets/images/demo.png)
 
 ## Technologies Used
 
