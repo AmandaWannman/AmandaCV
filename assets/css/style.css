@@ -22,6 +22,10 @@ nav{
     z-index: 99;
     background: #42c0cc;
 }
+.headeree{
+
+    margin-top: 128px;
+}
 
 nav ul{ /*Todos los ul que esten dentro del nav*/
     list-style: none;
