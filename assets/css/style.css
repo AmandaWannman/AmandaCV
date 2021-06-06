@@ -190,12 +190,12 @@ nav ul li a .fourth{
 #mypicture{
     background-attachment: fixed;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     overflow: hidden;
     height: 100vh;
     width: 100%;
     margin-bottom: 0;
-    background-image: url(../images/amanda/Amanda\ Wännmann_MFS.jpg);
+    background-image: url(../images/amanda/AmandaWannmann_MFS.jpg);
 
 }
 
