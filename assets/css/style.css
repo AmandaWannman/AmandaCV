@@ -255,12 +255,9 @@ nav ul li a .fourth{
     background-color: rgba(246, 246, 246, 0.43);
     z-index: 2;
     overflow: hidden;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+30,ffffff+83&0.81+26,0+76,0+90,0+90 */
-    background: -moz-linear-gradient(left,  rgba(255,255,255,0.81) 26%, rgba(255,255,255,0.75) 30%, rgba(255,255,255,0) 76%, rgba(255,255,255,0) 83%, rgba(255,255,255,0) 90%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(255,255,255,0.81) 26%,rgba(255,255,255,0.75) 30%,rgba(255,255,255,0) 76%,rgba(255,255,255,0) 83%,rgba(255,255,255,0) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 
+    background: rgb(6,38,37);
+    background: linear-gradient(90deg, rgba(6,38,37,1) 0%, rgba(50,198,191,0) 100%);
 
 }
 .centro{
@@ -308,7 +305,7 @@ nav ul li a .fourth{
  
  /*Presentation*/
 #page-header{
-    color: rgb(44, 44, 44);
+    color: white;
     font-family: "Rboto", sans-serif;
     margin-top: 10px;
     z-index: 4;
@@ -320,7 +317,7 @@ nav ul li a .fourth{
     color: rgb(159, 45, 45);
 }
 #page-header>p{
-    color: rgb(78 139 210);
+    color: #4c8ba8;
     font-weight: bold;
     font-size: 29px;
 }
@@ -829,6 +826,13 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
         font-size: 29px;
     }
 }
+
+/*big screen
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+    #page-header>p{
+        font-size: xx-large;
+    }
+}*/
 
 /*Deleting gap from boostrap*/
 .row{
