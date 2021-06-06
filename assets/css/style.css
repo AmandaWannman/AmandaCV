@@ -783,6 +783,13 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
         line-height:20px;
     }
 
+    #page-header>h2{
+        font-size: 65px;
+    }
+    #page-header>p{
+        font-size: 38px;
+    }
+
 }
 /*xm  MOBIL*/
 @media(max-width:568px){
