@@ -23,8 +23,8 @@ nav{
     background: #42c0cc;
 }
 .headeree{
-
     margin-top: 128px;
+    margin-left: 52px;
 }
 
 nav ul{ /*Todos los ul que esten dentro del nav*/
@@ -827,12 +827,19 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
     }
 }
 
-/*big screen
-@media (min-width: 768px) and (max-width: 1199.98px) { 
-    #page-header>p{
-        font-size: xx-large;
+/*big screen*/
+@media(min-width: 992px) { 
+    
+    #page-header>h2{
+        font-size: 65px;
     }
-}*/
+    #page-header>p{
+        font-size: 38px;
+    }  
+    .headeree{
+        margin-left: 110px;
+    } 
+}
 
 /*Deleting gap from boostrap*/
 .row{
