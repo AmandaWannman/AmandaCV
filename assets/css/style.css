@@ -754,9 +754,9 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 }
 
 /*****************************************--DesktopAproach-*************************************/
-/*xm  MOBIL
+/*xm  MOBIL*/
 @media(max-width:568px){
-*/
+
     .transparent-background-skills {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -791,7 +791,7 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
     .card-timeline-content h2 {
         font-size: 29px;
     }
-/*}*/
+}
 /* mayor que tablet menor que desktop*/
 @media(max-width:991px){
     .information-contact-cabecera > p{
