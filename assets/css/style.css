@@ -24,8 +24,9 @@ nav{
 }
 .headeree{
     margin-top: 128px;
-    margin-left: 52px;
+    margin-left: 47px;
 }
+
 
 nav ul{ /*Todos los ul que esten dentro del nav*/
     list-style: none;
@@ -310,16 +311,16 @@ nav ul li a .fourth{
     margin-top: 10px;
     z-index: 4;
 }
-#page-header>h1{
-    font-size:82px;
+#page-header>h2{
+    font-size:40px;
 }
-#page-header>h1>small{
+#page-header>h2>small{
     color: rgb(159, 45, 45);
 }
 #page-header>p{
     color: #4c8ba8;
     font-weight: bold;
-    font-size: 29px;
+    font-size: 28px;
 }
 .mt-5 {
     margin-top: 22rem!important;
@@ -753,55 +754,13 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
 }
 
 /*****************************************--DesktopAproach-*************************************/
-
-/* mayor que tablet menor que desktop*/
-@media(max-width:991px){
-    .information-contact-cabecera > p{
-        line-height:22px;
-        font-size:  15px;   
-    }
-    .information{
-        font-size:  15px;  
-    }
-
-    #skills{
-        background-attachment: fixed;
-        background-position: bottom;
-        height: auto;
-        width: 100%;
-    }
-}
-
-/*md  TABLETS*/
-@media(max-width:767px){
-  .cabeceras-contact{
-        margin-left: 10px;
-        margin-bottom: 40px;
-    }
-
-    .information-contact-cabecera > p{
-        line-height:20px;
-    }
-
-    #page-header>h2{
-        font-size: 65px;
-    }
-    #page-header>p{
-        font-size: 38px;
-    }
-
-}
-/*xm  MOBIL*/
+/*xm  MOBIL
 @media(max-width:568px){
-    #page-header>h1 {
-        font-size: 38px;
-    }
-
+*/
     .transparent-background-skills {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    
  
     .progress {
         height: 21px;
@@ -832,6 +791,43 @@ box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
     .card-timeline-content h2 {
         font-size: 29px;
     }
+/*}*/
+/* mayor que tablet menor que desktop*/
+@media(max-width:991px){
+    .information-contact-cabecera > p{
+        line-height:22px;
+        font-size:  15px;   
+    }
+    .information{
+        font-size:  15px;  
+    }
+
+    #skills{
+        background-attachment: fixed;
+        background-position: bottom;
+        height: auto;
+        width: 100%;
+    }
+}
+
+/*md  TABLETS*/
+@media(min-width:767px){
+  .cabeceras-contact{
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+
+    .information-contact-cabecera > p{
+        line-height:20px;
+    }
+
+    #page-header>h2{
+        font-size: 65px;
+    }
+    #page-header>p{
+        font-size: 38px;
+    }
+
 }
 
 /*big screen*/
